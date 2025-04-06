@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.main-header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-bottom: 1px solid rgb(34, 34, 34); 
+}
+
+.main-header span a{
+    color: #fafafafa;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    user-select: none;
+}
+
+.main-header ul{
+    display: flex;
+    list-style: none;
+    gap: 1px;  
+}
+
+.main-header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.main-header ul li a{
+    text-decoration: none;
+    color: #fafafafa;
+    font-size: 17px;
+    font-weight: 500;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-header ul li a:hover{
+    opacity: 0.6;
+}
+
+.main-header ul li a.active{
+    color: #f0f0f0;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+}
+
+section{
+    width: 40%;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+article{
+    width: 100%; 
+}
+
+.article-header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.article-header img{
+    width: 70px;
+    border-radius: 50%;
+
+}
+
+.article-header a{
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.article-container-photos{
+    width: 100%; 
+}
+
+.article-photo{
+    width: 100%;
+    test-align: center;
+}
+
+.article-photo img{
+    width: 100%;
+    border-radius: 8px;
+    max-height: 460px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.article-photo img:hover{
+    transform: scale(1.02);
+}
+
+.article-actions{
+    padding-top: 10px;
+}
+
+.article-actions a{
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    button-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    border-box-shadow: 5 5 5px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width: 600px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;     
+    }
+
+    section{
+        width: 80%;
+        padding: 10px;
+}
+
+.article-actions{
+    display:flex;
+    font-size: 12px;
+}
+
+.main-header{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header ul li{
+padding: 0;
+margin: 0;
+}
+
+.main-header span a{
+    font-size: 30px;
+}
+
+.main-header ul li a{
+    font-size: 15px;
+    padding: 5px;
+}
+}
+
+    
+    
+    
+
+    
